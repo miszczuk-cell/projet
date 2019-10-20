@@ -1,0 +1,46 @@
+body
+{
+  padding: 0;
+  margin: 0;
+}
+
+.menu
+{
+  display: flex;
+  width: 100%;
+  height: 100px;
+  background-color: #ffb5b5;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item
+{
+  width: 20%;
+  height: 100%;
+  background-color: grey;
+}
+
+ul
+{
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+}
+
+.sous-titre
+{
+  background-color: #d2d2d2;
+  z-index: 1;
+}
+
+.titre
+{
+  z-index: 2;
+  border: black 1px solid;
+}
