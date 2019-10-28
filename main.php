@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
-    <title>Menu</title>
+    <title>Bienvenue</title>
   </head>
   <body>
     <h1>oghfkoih</h1>
