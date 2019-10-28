@@ -6,7 +6,7 @@
     <title>Menu test</title>
   </head>
   <body>
-    <h1>oghfkoih</h1>
+    <h1>Le commit</h1>
     <?php include 'include/menu.html'?>
     <script src="include/jquery.js"></script>
     <script src="include/script.js"></script>
