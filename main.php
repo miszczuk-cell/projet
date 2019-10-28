@@ -14,6 +14,7 @@
 >>>>>>> 479ed8707b7ea8db3ae91c13869b4730b1640cd5
 =======
     <h1>Oui ça marche tkt !</h1>
+    <h1> J'ai vu ça oui c'est nice </h1>
 >>>>>>> c1532ba7a74aaa528dc3e864122fe9ac25432f78
     <?php include 'include/menu.html'?>
     <script src="include/jquery.js"></script>
