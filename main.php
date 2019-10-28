@@ -6,7 +6,7 @@
     <title>Menu test</title>
   </head>
   <body>
-    <h1>Test de GitHub</h1>
+    <h1>Test de GitHub pour voir si ça marche</h1>
     <?php include 'include/menu.html'?>
     <script src="include/jquery.js"></script>
     <script src="include/script.js"></script>
