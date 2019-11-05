@@ -3,10 +3,12 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
-    <title>Menu test</title>
+    <title>Menu</title>
   </head>
   <body>
-    <h1>Test de GitHub pour voir si ça marche</h1>
+    <h1>Titre</h1>
+    <h1>Oui ça marche tkt !</h1>
+    <h1> J'ai vu ça oui c'est nice </h1>
     <?php include 'include/menu.html'?>
     <script src="include/jquery.js"></script>
     <script src="include/script.js"></script>
