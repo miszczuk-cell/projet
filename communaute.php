@@ -83,12 +83,11 @@
 		<td>
 
 		<!-- la balise <br> unique permet le passage à la ligne du texte -->
-		<div class="text-center" class="page-header">
-			<p>La communauté à été créée en 1997</p>
-			<p>Les frères Marc et Emmanuel ont rejoint le frère Christian suite à cette création</p>
-			</td>
-			</r>
-			</table>
+		<p>La communauté à été créée en 1997</p>
+		<p>Les frères Marc et Emmanuel ont rejoint le frère Christian suite à cette création</p>
+		</td>
+		</r>
+		</table>
 	</div>
 	<div id=contenu>
 		<?php include("include/_inc_parametres.php");
