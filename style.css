@@ -4,6 +4,11 @@ body
   margin: 0;
 }
 
+a
+{
+  text-decoration: none;
+}
+
 .menu
 {
   position: absolute;
@@ -32,8 +37,9 @@ body
   background-color: grey;
   background-size: 50%;
 }
-
-a
+.menu ul li div
 {
-  text-decoration: none;
+  width: 100%;
+  height: 90%;
+  border: 1px black solid;
 }
