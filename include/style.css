@@ -4,29 +4,20 @@ body
   margin: 0;
 }
 
-<<<<<<< HEAD:include/style.css
-.nav
-=======
 a
 {
   text-decoration: none;
 }
 
 .menu
->>>>>>> 28f6e78e0ebcd9e94e2f22bf395993f75285b1b8:style.css
 {
   position: fixed;
   top: 0;
   display: flex;
   width: 100%;
-<<<<<<< HEAD:include/style.css
   height: 100px;
   background-color: white;
-=======
-  background-color: #ffb5b5;
->>>>>>> 28f6e78e0ebcd9e94e2f22bf395993f75285b1b8:style.css
   justify-content: space-around;
-  
   margin-left: auto;
   margin-right: auto;
   border: black 1px solid;
