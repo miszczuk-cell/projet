@@ -4,28 +4,24 @@ body
   margin: 0;
 }
 
-a
+.menu a
 {
   text-decoration: none;
+  color: black;
 }
 
 .menu
 {
+  font: italic 1.3em "Fira Sans", serif;
   position: fixed;
   top: 0;
   display: flex;
   width: 100%;
-  height: 100px;
   background-color: white;
   justify-content: space-around;
   margin-left: auto;
   margin-right: auto;
-  border: black 1px solid;
-}
-
-.nav li
-{
-
+  box-shadow: 1px 1px 10px;
 }
 
 .menu ul
@@ -39,12 +35,9 @@ a
 .menu ul li
 {
   width: 10%;
-  border: 1px black solid;
   text-align: center;
-  background-color: grey;
   background-size: 50%;
   background-size: cover;
-  border: 1px black solid;
   overflow: hidden;
   height: 50px;
 }
@@ -56,21 +49,30 @@ a
   position: relative;
   width: 100%;
   height: 90%;
-  border: 1px black solid;
+  transition-duration: 1s;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.menu ul .item-menu:hover
+{
+  background-color: #a6dafe;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 
 .menu ul .sous-ligne
 {
   top: 0px;
   left: 0px;
-  width: 100%;
+  width: 0%;
   height: 10%;
-  background-color: white;
-  transition-duration: 2s;
-  border: 1px black solid;
-}
-
-.menu ul .sous-ligne:hover
-{
-  width:0px;
+  background-color: #87cbfa;
+  transition-duration: 0.8s;
+  margin-left: auto;
+  margin-right: auto;
 }

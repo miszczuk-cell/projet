@@ -2,10 +2,15 @@
 //{
 //  element.style.display = "none";
 //}
-var i = 0;
-var nbDiv = document.querySelectorAll("li").length;
-while(i<nbDiv)
+var div = document.querySelectorAll("li");
+var nbDiv = div.length;
+for (var i = 0; i<nbDiv ; i++)
 {
-  alert(nbDiv[i]);
-  i = i+1;
+  div[i].onmouseover = function(){
+    this.lastChild.style.width = "100%";
+  };
+
+  div[i].onmouseout = function(){
+    this.lastChild.style.width = "0%";
+  };
 }
