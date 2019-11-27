@@ -12,6 +12,9 @@
 		<link rel="stylesheet" href="include/style.css">
 		<script type="text/javascript" src="../tiny_mce/tiny_mce.js"></script>
 		<script type="text/javascript" src="js/emotions.js"></script>
+		<?php
+			include ("main.php");
+		 ?>
 	<script type="text/javascript">
 		tinyMCE.init({
 			// type de mode
@@ -105,5 +108,6 @@
 	</section>
 
 	<!-- Obligatoirement avant la balise de fermeture de l'élément body  -->
+		    <script src="include/script.js"></script>
 	</body>
 </html>
