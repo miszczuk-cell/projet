@@ -8,7 +8,6 @@
   <body>
     <?php include 'include/menu.html'?>
     <h1>Titre</h1>
-    <script src="include/jquery.js"></script>
     <script src="include/script.js"></script>
   </body>
 </html>

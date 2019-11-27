@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="include/style.css">
-    <title>dons.php</title>
+    <title>Dons</title>
   </head>
   <body>
     <?php include 'include/menu.html'?>

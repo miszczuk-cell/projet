@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="include/style.css">
-    <title>Galerie.php</title>
+    <title>Galerie</title>
   </head>
   <body>
     <?php include 'include/menu.html'?>
