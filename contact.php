@@ -12,6 +12,10 @@
 		<link rel="stylesheet" href="include/style.css">
 		<script type="text/javascript" src="../tiny_mce/tiny_mce.js"></script>
 		<script type="text/javascript" src="js/emotions.js"></script>
+		<?php
+		include ("include/menu.html");
+		include ("main.php");
+		?>
 	<script type="text/javascript">
 		tinyMCE.init({
 			// type de mode
@@ -49,17 +53,6 @@
 			// class disponible
 			theme_advanced_styles : "Tableau=textTab;TableauSansCadre=textTabSansCadre;",
 			// possibilité de définir les class et leurs styles directement avec le code suivant
-			/*
-			style_formats : [
-				{title : 'Bold text', inline : 'b'},
-				{title : 'Red text', inline : 'span', styles : {color : '#ff0000'}},
-				{title : 'Red header', block : 'h1', styles : {color : '#ff0000'}},
-				{title : 'Example 1', inline : 'span', classes : 'example1'},
-				{title : 'Example 2', inline : 'span', classes : 'example2'},
-				{title : 'Table styles'},
-				{title : 'Table row 1', selector : 'tr', classes : 'tablerow1'}
-			],
-			*/
 		});
 	</script>
 	</head>
@@ -114,5 +107,6 @@
 	<!-- pied de page avec lien feuille de style-->
 	<p id="footer">- Frères de Jésus Serviteur - <a href = "admin/"> Administration</p>
 	<!-- Obligatoirement avant la balise de fermeture de l'élément body  -->
+		    <script src="include/script.js"></script>
 	</body>
 </html>
