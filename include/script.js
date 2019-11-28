@@ -14,3 +14,9 @@ for (var i = 0; i<nbDiv ; i++)
     this.lastChild.style.width = "0%";
   };
 }
+
+var voile = document.querySelector(".voile");
+voile.onclick = function(){
+  this.style.width = "0px";
+  this.style.backgroundColor = "rgba(0,0,0,0)";
+};
