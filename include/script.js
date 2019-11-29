@@ -14,3 +14,9 @@ for (var i = 0; i<nbDiv ; i++)
     this.lastChild.style.width = "0%";
   };
 }
+
+var bouton = document.querySelector(".boutonMenuMobile");
+bouton.onclick = function(){
+  document.querySelector(".voile").style.width = "20%";
+  document.querySelector(".voile").style.backgroundColor = "rgba(0,0,0,0)";
+};
