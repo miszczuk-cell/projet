@@ -17,6 +17,20 @@ for (var i = 0; i<nbDiv ; i++)
 
 var bouton = document.querySelector(".boutonMenuMobile");
 bouton.onclick = function(){
-  document.querySelector(".voile").style.width = "20%";
-  document.querySelector(".voile").style.backgroundColor = "rgba(0,0,0,0)";
+  var etatVoile = 0;
+  var voile = document.querySelector(".voile");
+
+  if(etatVoile == 0)
+  {
+    voile.style.width = "50%";
+    voile.style.backgroundColor = "rgba(0,0,0,0)";
+    etatVoile = 1;
+  }
+
+  else
+  {
+    voile.style.width = "0px";
+    voile.style.backgroundColor = "rgba(0,0,0,0)";
+    etatVoile = 0;
+  }
 };
