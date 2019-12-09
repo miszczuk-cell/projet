@@ -2,7 +2,7 @@
 //{
 //  element.style.display = "none";
 //}
-var div = document.querySelectorAll("li");
+var div = document.querySelectorAll("voile ul li");
 var nbDiv = div.length;
 for (var i = 0; i<nbDiv ; i++)
 {
@@ -15,9 +15,9 @@ for (var i = 0; i<nbDiv ; i++)
   };
 }
 
+var etatVoile = 0;
 var bouton = document.querySelector(".boutonMenuMobile");
 bouton.onclick = function(){
-  var etatVoile = 0;
   var voile = document.querySelector(".voile");
 
   if(etatVoile == 0)
@@ -25,12 +25,13 @@ bouton.onclick = function(){
     voile.style.width = "50%";
     voile.style.backgroundColor = "rgba(0,0,0,0)";
     etatVoile = 1;
+    bouton.innerText = "X";
   }
-
   else
   {
     voile.style.width = "0px";
     voile.style.backgroundColor = "rgba(0,0,0,0)";
     etatVoile = 0;
+    bouton.innerText = "=";
   }
 };
