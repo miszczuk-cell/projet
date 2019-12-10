@@ -2,7 +2,7 @@
 //{
 //  element.style.display = "none";
 //}
-var div = document.querySelectorAll("voile ul li");
+var div = document.querySelectorAll(".voile ul li");
 var nbDiv = div.length;
 for (var i = 0; i<nbDiv ; i++)
 {
@@ -25,13 +25,15 @@ bouton.onclick = function(){
     voile.style.width = "50%";
     voile.style.backgroundColor = "rgba(0,0,0,0)";
     etatVoile = 1;
-    bouton.innerText = "X";
+    bouton.innerText = "";
   }
   else
   {
     voile.style.width = "0px";
     voile.style.backgroundColor = "rgba(0,0,0,0)";
     etatVoile = 0;
-    bouton.innerText = "=";
+    bouton.innerText = "";
   }
+
+
 };
