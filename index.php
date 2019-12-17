@@ -8,7 +8,7 @@
 	</head>
 
 	<body>
-		
+
 	<?php include ("include/menu.html"); ?>
 	<script src="include/script.js"></script>
 </body>
