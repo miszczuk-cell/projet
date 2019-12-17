@@ -2,7 +2,8 @@
 //{
 //  element.style.display = "none";
 //}
-var div = document.querySelectorAll(".voile ul li");
+
+var div = document.querySelectorAll(".menuPC ul li");
 var nbDiv = div.length;
 for (var i = 0; i<nbDiv ; i++)
 {
