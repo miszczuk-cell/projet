@@ -7,10 +7,6 @@
 		<link rel="stylesheet" href="include/style.css">
 	</head>
 
-<<<<<<< HEAD
-	<body>
-
-=======
 	<body></br></br></br>
 		<h1>Présentation</h1>
 			<p>
@@ -61,7 +57,6 @@
 				<p>
 					Ils vivent du travail de leurs mains et cherchent à manifester leur amour du prochain par le service désintéressé, l’hospitalité, l’accueil et l’aumône.
 				</p>
->>>>>>> abdb6d1a3764634655dd78a6836a95fc23702e07
 	<?php include ("include/menu.html"); ?>
 	<script src="include/script.js"></script>
 </body>
