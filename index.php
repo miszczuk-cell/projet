@@ -8,6 +8,7 @@
 	</head>
 
 	<body></br></br></br>
+		<div class="texte">
 		<h1>Présentation</h1>
 			<p>
 				Les frères de la Communion Fraternelle de Jésus Serviteur sont présents au service des plus
@@ -57,6 +58,7 @@
 				<p>
 					Ils vivent du travail de leurs mains et cherchent à manifester leur amour du prochain par le service désintéressé, l’hospitalité, l’accueil et l’aumône.
 				</p>
+			</div>
 	<?php include ("include/menu.html"); ?>
 	<script src="include/script.js"></script>
 </body>
