@@ -169,9 +169,16 @@ li
   border: black 1px solid;
 }
 
+.formulaireContact textarea
+{
+  width: 500px;
+  height: 100px;
+}
+
 .formulaireContact input
 {
-  display: none;
+  width: 500px;
+  height: auto;
 }
 
 .voile ul

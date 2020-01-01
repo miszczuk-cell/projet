@@ -12,18 +12,22 @@
     <h2>Pour nous contacter, veuillez remplir le formulaire ci-dessous :</h2>
       <table>
         <tr>
-          <td><label for="prenom">Prenom :</label></td>
+          <td><label for="prenom">Prénom :</label></td>
           <td><input type="text" id="prenom" size="50"></td>
         </tr>
         <tr>
           <td><label for="nom">Nom :</label></td>
-          <td><input type="text" id="nom"></td>
+          <td><input type="text" id="nom" size="50"></td>
         </tr>
           <td><label for="mail">Mail :</label></td>
-          <td><input type="text" id="mail"></td>
+          <td><input type="text" id="mail" size="100"></td>
         <tr>
           <td><label for="message">Message :</label></td>
-          <td><input type="text" id="message"></td>
+          <td><textarea name="message" id="message" size="500"></textarea></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><input type="button" text="Envoyer" id="boutonEnvoyer"></td>
         </tr>
       </table>
     </form>
