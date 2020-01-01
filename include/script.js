@@ -8,11 +8,11 @@ var nbDiv = div.length;
 for (var i = 0; i<nbDiv ; i++)
 {
   div[i].onmouseover = function(){
-    this.lastChild.style.width = "100%";
+    this.lastChild.style.height = "100%";
   };
 
   div[i].onmouseout = function(){
-    this.lastChild.style.width = "0%";
+    this.lastChild.style.height = "0%";
   };
 }
 
@@ -23,14 +23,14 @@ bouton.onclick = function(){
 
   if(etatVoile == 0)
   {
-    voile.style.width = "50%";
+    voile.style.height = "100%";
     voile.style.backgroundColor = "rgba(0,0,0,0)";
     etatVoile = 1;
     bouton.innerText = "";
   }
   else
   {
-    voile.style.width = "0px";
+    voile.style.height = "0px";
     voile.style.backgroundColor = "rgba(0,0,0,0)";
     etatVoile = 0;
     bouton.innerText = "";

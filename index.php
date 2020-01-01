@@ -8,7 +8,7 @@
 	</head>
 
 	<body></br></br></br>
-		<div class="texte">
+		<div class="textePrésentation">
 		<h1>Présentation</h1>
 			<p>
 				Les frères de la Communion Fraternelle de Jésus Serviteur sont présents au service des plus

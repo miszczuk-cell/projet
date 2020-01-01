@@ -90,7 +90,7 @@ li
   position: relative;
   width: 100%;
   height: 90%;
-  transition-duration: 1s;
+  transition-duration: 0.5s;
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
   border-bottom-left-radius: 50px;
@@ -113,7 +113,7 @@ li
   width: 0%;
   height: 10%;
   background-color: #87cbfa;
-  transition-duration: 1s;
+  transition-duration: 0.5s;
   margin-left: auto;
   margin-right: auto;
 }
@@ -135,7 +135,10 @@ li
 
 .menuMobile
 {
-  position: fixed;
+  position: absolute;
+  top:1%;
+  border: black solid 1px;
+
 }
 
 .boutonMenuMobile
@@ -162,11 +165,11 @@ li
 {
   overflow: hidden;
   position: fixed;
-  width: 0px;
-  height: 100%;
+  width: 50%;
+  height: 0px;
   background-color: white;
-  transition: 2s;
-  border: black 1px solid;
+  transition: 1s;
+  border-right: black 1px solid;
 }
 
 .formulaireContact textarea
@@ -183,8 +186,10 @@ li
 
 .voile ul
 {
-  padding-top: 4em;
+  padding-top: 7em;
   height: 100%;
+  background-color: white;
+  align-items: center;
 }
 
 .voile ul li
@@ -192,13 +197,14 @@ li
   display: flex;
   min-width: 10em;
   width: 100%;
-  height: 5%;
+  height: 10vh;
   box-shadow: inset 0em 0em 0px 0px black;
-  transition-duration: 0.5s;
+  transition-duration: 0.1s;
   list-style-type: none;
   text-decoration: none;
   justify-content: center;
   align-items: center;
+
 }
 
 .voile ul li:hover
@@ -209,20 +215,23 @@ li
 .voile ul li a
 {
   text-decoration:none;
+  font-size: 3vh;
 }
 
-#barreHaut{
-margin-left: auto;
-margin-right: auto;
-margin-top: 3%;
-margin-bottom: 3%;
+#barreHaut
+{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
   width: 80%;
   height: 20%;
   background-color: black;
   margin-bottom: 10px;
 }
 
-#barreBas{
+#barreBas
+{
   margin-left: auto;
   margin-right: auto;
   width: 80%;
@@ -232,9 +241,18 @@ margin-bottom: 3%;
   margin-bottom: 3%;
 }
 
+<<<<<<< HEAD
+.textePrésentation
+{
+  text-align: justify;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+=======
 .texte
 {
   margin-left: 100px;
   margin-right: 100px;
   text-align: justify;
+>>>>>>> a2bec9cdaef700499feded6ee57969e3b2aabe89
 }
