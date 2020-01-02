@@ -23,7 +23,7 @@
           <td><input type="text" id="mail" default value="Entrez votre adresse mail..." size="100" required></td>
         <tr>
           <td><label for="message">Message :</label></td>
-          <td><textarea name="message" id="message" size="500" required>Entrez ici votre message</textarea></td>
+          <td><textarea name="message" id="message" size="500" required>Entrez ici votre message...</textarea></td>
         </tr>
         <tr>
           <td></td>
