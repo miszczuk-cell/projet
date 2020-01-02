@@ -13,21 +13,21 @@
       <table>
         <tr>
           <td><label for="prenom">Prénom :</label></td>
-          <td><input type="text" id="prenom" size="50"></td>
+          <td><input type="text" id="prenom" value="Entrez votre prénom..." size="50" required></td>
         </tr>
         <tr>
           <td><label for="nom">Nom :</label></td>
-          <td><input type="text" id="nom" size="50"></td>
+          <td><input type="text" id="nom" value="Entrez votre nom..." size="50" required></td>
         </tr>
           <td><label for="mail">Mail :</label></td>
-          <td><input type="text" id="mail" size="100"></td>
+          <td><input type="text" id="mail" default value="Entrez votre adresse mail..." size="100" required></td>
         <tr>
           <td><label for="message">Message :</label></td>
-          <td><textarea name="message" id="message" size="500"></textarea></td>
+          <td><textarea name="message" id="message" size="500" required>Entrez ici votre message</textarea></td>
         </tr>
         <tr>
           <td></td>
-          <td><input type="button" text="Envoyer" id="boutonEnvoyer"></td>
+          <td><input type="button" value="Envoyer" id="boutonEnvoyer"></td>
         </tr>
       </table>
     </form>
