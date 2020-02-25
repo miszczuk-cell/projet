@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel= "shortcut icon" type="image/x-icon" href= "images/logoTest.ico" />
+    <link rel= "shortcut icon" type="image/x-icon" href= "images/jesus.ico" />
     <link rel="stylesheet" href="include/style.css">
     <title>Comme Lui</title>
   </head>
