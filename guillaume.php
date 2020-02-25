@@ -3,7 +3,7 @@
 <html lang="fr">
 	<head>
 		<!-- titre de la page -->
-		<title>Les Frères de Jésus-Serviteur</title>
+		<title>Comme lui</title>
 		<!-- type d'encodage de la page -->
 		<meta charset="utf-8" />
 		<!-- taille et échelle de la page -->

@@ -3,7 +3,7 @@
 	<head>
 		<meta name="viewport" content="width=device-width">
 		<link rel= "shortcut icon" type="image/x-icon" href= "images/logoTest.ico" />
-		<title>Communauté de Jésus-Serviteur</title>
+		<title>Comme Lui</title>
 		<meta charset="utf-8" />
 		<link rel="stylesheet" href="include/style.css">
 	</head>

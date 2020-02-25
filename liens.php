@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <link rel= "shortcut icon" type="image/x-icon" href= "images/logoTest.ico" />
     <link rel="stylesheet" href="include/style.css">
-    <title>Galerie</title>
+    <title>Comme Lui</title>
   </head>
   <body>
     <?php include 'include/menu.html'?>
