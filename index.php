@@ -2,12 +2,13 @@
 <html lang="fr">
 	<head>
 		<meta name="viewport" content="width=device-width">
-		<title>Les Frères de Jésus-Serviteur</title>
+		<link rel= "shortcut icon" type="image/x-icon" href= "images/logoTest.ico" />
+		<title>Communauté de Jésus-Serviteur</title>
 		<meta charset="utf-8" />
 		<link rel="stylesheet" href="include/style.css">
 	</head>
 
-	<body></br></br></br>
+	<body></br></br></br></br></br></br>
 		<div class="textePrésentation">
 		<h1>Présentation</h1>
 			<p>
