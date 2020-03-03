@@ -7,7 +7,7 @@
 
   .menuMobile
   {
-    display: flex;
+    display: block;
   }
 }
 
@@ -254,5 +254,4 @@ li
   margin-left: 100px;
   margin-right: 100px;
   text-align: justify;
->>>>>>> a2bec9cdaef700499feded6ee57969e3b2aabe89
 }

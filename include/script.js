@@ -38,3 +38,46 @@ bouton.onclick = function(){
 
 
 };
+// dljsdlhjkldjlfksjklsfdljkfljksdf
+
+(function(){
+		var etat = 0;
+		var bouton = document.querySelector(".boutonMenuMobile");
+		var voile = document.querySelector(".voile");
+		var barre1 = document.querySelector(".boutonMenuMobile .anime1");
+		var barre2 = document.querySelector(".boutonMenuMobile .anime2");
+		var barre3 = document.querySelector(".boutonMenuMobile .anime3");
+		bouton.addEventListener("click",function(e){
+			if(etat == 0)
+			{
+				voile.style.width = "100vw";
+				voile.style.opacity = "1";
+				barre1.style.top = "50%";
+				barre1.style.transform = "translateY(-50%)";
+				barre1.style.backgroundColor = "#ffffff";
+				barre2.style.transform = "rotate(90deg)";
+				barre2.style.backgroundColor = "#ffffff";
+				barre3.style.bottom = "50%";
+				barre3.style.transform = "translateY(50%)";
+				barre3.style.backgroundColor = "#ffffff";
+				document.querySelector(".boutonMenuMobile").style.transform = "rotate(45deg)";
+				etat = 1;
+			}
+			else
+			{
+				voile.style.width = "0vw";
+				voile.style.opacity = "0";
+				barre1.style.top = "0%";
+				barre1.style.transform = "translateY(0%)";
+				barre1.style.backgroundColor = "#000000";
+				barre2.style.transform = "rotate(0deg)";
+				barre2.style.backgroundColor = "#000000";
+				barre3.style.bottom = "0%";
+				barre3.style.transform = "translateY(0%)";
+				barre3.style.backgroundColor = "#000000";
+				document.querySelector(".boutonMenuMobile").style.transform = "rotate(0deg)";
+				etat = 0;
+			}
+
+		});
+	})();
