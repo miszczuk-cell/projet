@@ -5,6 +5,11 @@
     display: none;
   }
 
+  .Banniere
+  {
+    display: flex;
+  }
+
   .menuMobile
   {
     display: block;
@@ -14,6 +19,11 @@
 @media(min-width:1002px)
 {
   .menuPC
+  {
+    display: flex;
+  }
+
+  .Banniere
   {
     display: flex;
   }
@@ -41,6 +51,17 @@ li
   margin: 0;
 }
 
+.Banniere
+{
+  position: fixed;
+  top: 0px;
+  bottom;
+  width: 100%;
+  height: auto;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
 .menuPC a
 {
   text-decoration: none;
@@ -51,13 +72,15 @@ li
 .menuPC
 {
   font: italic 1.3em "Fira Sans", serif;
+  font-size: 100%;
   position: fixed;
-  top: 0px;
-  width: 100%;
+  top: 100px;
+  width: 110%;
+  height: 8.5%;
   background-color: white;
   justify-content: space-around;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 0px;
+  margin-right: 0px;
   box-shadow: 1px 1px 10px;
 }
 
@@ -67,6 +90,7 @@ li
   list-style-type: none;
   display: flex;
   justify-content: space-around;
+  height: 30px;
 }
 
 .menuPC ul li
@@ -89,7 +113,7 @@ li
   left: 0;
   position: relative;
   width: 100%;
-  height: 90%;
+  height: 100%;
   transition-duration: 0.5s;
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
@@ -102,23 +126,26 @@ li
   background-color: #a6dafe;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
-  border-bottom-left-radius: 0px;
-  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .menuPC ul .sous-ligne
 {
+  display: flex;
   top: 0px;
   left: 0px;
   width: 0%;
-  height: 10%;
+  height: 20%;
   background-color: #87cbfa;
   transition-duration: 0.5s;
   margin-left: auto;
   margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
-.julien
+/*.julien
 {
   display: grid;
   grid-template-columns: 1fr 5fr;
@@ -132,6 +159,7 @@ li
   margin-right: auto;
   box-shadow: 1px 1px 10px;
 }
+*/
 
 .menuMobile
 {
@@ -144,9 +172,9 @@ li
 .boutonMenuMobile
 {
   display: fixed;
-  width: 50%;
-  height: 90%;
-  margin-left: auto;
+  width: 20%;
+  height: 20%;
+  margin-left: 10px;
   margin-right: auto;
   border: 1px black solid;
   background-color: grey;

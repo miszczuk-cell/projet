@@ -2,8 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
+  	<link rel= "shortcut icon" type="image/x-icon" href= "images/jesus.ico" />
     <link rel="stylesheet" href="include/style.css">
-    <title>Contact</title>
+    <title>Comme Lui</title>
   </head>
   <body>
     <?php include 'include/menu.html'?>
